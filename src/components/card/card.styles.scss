@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  z-index: 20;
+}
+.status {
+  width: 350px;
+  background-color: #fff;
+  border: 2px solid var(--light-blue);
+  select {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1.7rem auto 1rem;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+  }
+}

@@ -26,6 +26,12 @@
   scroll-behavior: smooth;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 html {
   font-size: 10px;
 }
@@ -429,5 +435,5 @@ a {
 
 a:hover {
   color: var(--color-dark);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
