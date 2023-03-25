@@ -33,8 +33,7 @@ import {
 } from "firebase/storage";
 import { toast } from "react-toastify";
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FB_API_KEY,
-  // AIzaSyDkylRuqrWXV2-NXXho-L5z0O74zL6BA3M
+  apiKey: "AIzaSyDkylRuqrWXV2-NXXho-L5z0O74zL6BA3M",
   authDomain: "esop-4bc1f.firebaseapp.com",
   projectId: "esop-4bc1f",
   storageBucket: "esop-4bc1f.appspot.com",
