@@ -53,7 +53,7 @@ const Slider = () => {
                                 <hr />
                                 <a href="#products" style={{ cursor: "pointer" }} onClick={(e) => {
                                     e.preventDefault();
-                                    const top = document.getElementById("products")?.getBoundingClientRect()?.top - 80;
+                                    const top = document.getElementById("products")?.getBoundingClientRect()?.top;
                                     window.scrollTo({
                                         top: Number(top),
                                         behavior: "smooth"

@@ -52,8 +52,7 @@ const Header = () => {
         setIsLoading(false);
     }
     const fixNavBar = () => {
-        // if (window.scrollY > Number(document.getElementById("header").offsetHeight)) {
-        if (window.scrollY > 200) {
+        if (window.scrollY >= Number(document.getElementById("products")?.getBoundingClientRect()?.top)) {
             setScrollPage(true);
         } else {
             setScrollPage(false);
